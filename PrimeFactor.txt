@@ -1,0 +1,33 @@
+﻿package primefactor;
+import java.util.Scanner;
+
+public class PrimeFactor {
+   public static void main(String[] args) {
+    Scanner sc =new Scanner(System.in); 
+	int count=1;
+                
+            while(count==1){ 
+                System.out.print("Enter Number : ");
+                int number = sc.nextInt(); 
+                       
+                int i=2;    
+		while(number>1){
+                    if(number%i == 0) {
+                        System.out.print(i); 
+                        if (i==0) {
+                            break;
+                        }
+                        
+                        System.out.print("x");
+                        number=number/i;
+                    } 
+                    else
+                        i++;
+                    }
+                    System.out.println();
+                    }
+	
+		}
+            }
+            
+        
