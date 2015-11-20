@@ -11,7 +11,7 @@ public class PrimeFactor {
                 int number = sc.nextInt(); 
                        
                 int i=2;    
-		while(number>1){
+	while(number>1){
                     if(number%i == 0) {
                         System.out.print(i); 
                         if (i==0) {
